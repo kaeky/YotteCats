@@ -1,0 +1,25 @@
+{
+  "name": "yottecats",
+  "version": "1.0.0",
+  "description": "Yottecats bot",
+  "main": "index.js",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "discord.js": "^12.5.3",
+    "node-cron": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaeky/YotteCats.git"
+  },
+  "author": "Kaeky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaeky/YotteCats/issues"
+  },
+  "homepage": "https://github.com/kaeky/YotteCats#readme"
+}
