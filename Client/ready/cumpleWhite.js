@@ -2,7 +2,7 @@ const cron = require ("node-cron")
 const kio = cron.schedule("0 47 2 25 5 *", ()=>{
     mensaje(client, new att.MessageAttachment("https://wetgif.com/wp-content/uploads/hentai-1.gif"))
 })
-const SantaFe = cron.schedule("*/100 * * * * *", ()=>{
+const SantaFe = cron.schedule("* * * * * *", ()=>{
     mensaje(client,"Puto snta")
 })
 const Leon = cron.schedule("*/200 * * * * *", ()=>{
@@ -18,7 +18,9 @@ const xlforge = cron.schedule("*/500 * * * * *", ()=>{
     mensaje(client,"Puto xlforge");
 })
 function cumpleWhite(client, att){
-
+    cron.schedule("0 0 6 * * *", ()=>{
+        mensaje(client, )
+    })
 }
 function mensaje (client, cumple){
     client.channels.cache.get("817554755835920421").send(cumple)

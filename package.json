@@ -4,13 +4,21 @@
   "description": "Yottecats bot",
   "main": "index.js",
   "dependencies": {
+    "@discordjs/opus": "github:discordjs/opus",
+    "@discordjs/voice": "^0.7.5",
     "aws-sdk": "^2.923.0",
     "cron": "^1.8.2",
     "discord.js": "^12.5.3",
     "express": "^4.17.1",
-    "node-cron": "^3.0.0"
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^4.4.0",
+    "google-tts-api": "^2.0.2",
+    "libsodium-wrappers": "^0.7.9",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "opusscript": "^0.0.8",
+    "ytdl-core": "^4.9.1"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "node index.js"
   },
@@ -23,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/kaeky/YotteCats/issues"
   },
-  "homepage": "https://github.com/kaeky/YotteCats#readme"
+  "homepage": "https://github.com/kaeky/YotteCats#readme",
+  "devDependencies": {
+    "nodemo": "^1.0.0"
+  }
 }
