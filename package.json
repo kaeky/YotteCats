@@ -6,17 +6,20 @@
   "dependencies": {
     "@discordjs/opus": "github:discordjs/opus",
     "@discordjs/voice": "^0.7.5",
+    "@gcommands/voice": "^0.2.0-dev",
     "aws-sdk": "^2.923.0",
     "cron": "^1.8.2",
     "discord.js": "^12.5.3",
     "express": "^4.17.1",
     "ffmpeg": "^0.0.4",
     "ffmpeg-static": "^4.4.0",
+    "gcommands": "^8.0.3",
     "google-tts-api": "^2.0.2",
     "libsodium-wrappers": "^0.7.9",
     "node-cron": "^3.0.0",
     "nodemon": "^2.0.15",
     "opusscript": "^0.0.8",
+    "rss-parser": "^3.12.0",
     "ytdl-core": "^4.9.1"
   },
   "scripts": {
