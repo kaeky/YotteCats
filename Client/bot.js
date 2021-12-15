@@ -26,7 +26,7 @@ const client = new GCommandsClient({
     intents: [["GUILDS","GUILD_MESSAGES"],
         Intents.FLAGS.GUILDS,
         Intents.FLAGS.GUILD_VOICE_STATES,
-        Intents.FLAGS.GUILD_MEMBERS,
+        Intents.FLAGS.GUILD_MEMBERS
     ]
 
 })
